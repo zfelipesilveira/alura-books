@@ -9,3 +9,11 @@
     display: flex;
     justify-content: center;
 }
+
+.opcoes {
+    display: flex;
+}
+
+.li {
+    list-style: none;
+}
