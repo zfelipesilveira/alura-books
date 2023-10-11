@@ -10,9 +10,9 @@ function App() {
       <header className='App-header'>
         <Logo></Logo>
         <ul className='opcoes'>
-                    { textoOpcoes.map ( (texto) => (
-                        <li className='opcao'><p>{texto}</p></li>
-                    ) ) }
+          { textoOpcoes.map ( (texto) => (
+            <li className='opcao'><p>{texto}</p></li>
+          ) ) }       
         </ul>
       </header>
     </div>
