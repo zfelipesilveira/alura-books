@@ -5,7 +5,7 @@ import sacola from './imagens/sacola.svg'
 
 
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE'];
-const icones = [perfil, sacola]
+const icones = [perfil, sacola];
 
 
 function App() {
@@ -17,6 +17,11 @@ function App() {
           { textoOpcoes.map ( (texto) => (
             <li className='opcao'><p>{texto}</p></li>
           ) ) }       
+        </ul>
+        <ul className='icones'>
+            { icones.map( (icone) => (
+              <li><img src={icone}></img></li>
+            )) }
         </ul>
       </header>
     </div>
