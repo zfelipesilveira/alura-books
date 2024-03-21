@@ -12,16 +12,18 @@ const GlobalStyle = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    }
+  }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-    }
+  }
 
-    li {
-      list-style: none;
-    }
+  li {
+    list-style: none;    
+  }
+
+
 `
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
